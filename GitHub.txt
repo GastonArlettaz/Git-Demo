@@ -1,0 +1,9 @@
+Subir a GitHub las modificaciones de los commits:
+	git push origin master (nombre de la rama)
+
+
+Clonar un repositorio
+	git clone https://github.com/GastonArlettaz/aima-python.git
+
+Actualizar la version local con la de GitHub
+	git pull origin master

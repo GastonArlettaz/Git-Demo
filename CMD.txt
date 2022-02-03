@@ -1,0 +1,61 @@
+C:\Prueba
+
+Version: 
+	git --version
+
+config:  
+	git config --list
+	git config --global user.name "Gaston Arlettaz"
+	git config --global user.email "arlettazgaston@gmail.com"
+	git config --global color.ui true
+
+Crea Repositorio en la ruta:
+	git init
+
+Entrar al repositorio
+	cd .git
+
+Estados
+	git status
+
+Agregar
+	git add .
+
+Confirmar
+	git commit -m "Confirmar archivo"
+
+Ignorar archivos, crear archivo
+	.gitignore
+
+
+
+Recuperar archivo borrado (Por explorador)
+	git checkout readme.txt
+
+Borrar archivo con git
+	git rm readme.txt
+
+Recuperar archivo borrado con git
+	 git restore --staged readme.txt
+
+Para confirmar el borrado por git 
+	 git commit -m "confirmo borrado de readme"
+
+Ver los commits realizados(muestra el hash del commit)
+	git log
+
+	ejemplo hash: 736932487e0f4e5931486a20c53138ca3dd410d8
+
+Tomando los primeros 6 digitos del hash(736932) podemos ir a esa version
+
+	git checkout 736932
+	
+Crear una nueva rama de la version 
+	
+	git checkout -b Rama
+
+
+	
+	
+
+
